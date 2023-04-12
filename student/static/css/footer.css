@@ -1,0 +1,30 @@
+.content-footer {
+    height: 8rem;
+    display: grid;
+    color: white;
+    /* padding: 2rem; */
+    margin-top: 38rem;
+    /* column-gap: 5px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color:rgb(96,96,96); */
+}
+
+.social-media,
+.product-adverts,
+.subject-offers {
+    background-color: rgb(96, 96, 96);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .social-media {
+    background-color: rgb(96, 96, 06);
+}
+
+.product-adverts {
+    background-color: rgb(06, 96, 96);
+}
+
+.subject-offers {
+    background-color: rgb(96, 06, 96);
+} */
