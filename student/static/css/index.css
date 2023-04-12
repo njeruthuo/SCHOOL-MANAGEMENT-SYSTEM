@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border-bottom: 4px solid black;
+}
+
+.nav-container {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* border: 1px solid black; */
+    background-color: rgba(227, 127, 255, 0.916);
+}
+
+.logo-name {
+    flex: 1;
+    /* border: 1px solid black; */
+}
+
+.nav-elements {
+    flex: 1;
+    /* border: 1px solid black; */
+}
+
+.li-elements{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-image{
+    width: 70px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.school-name{
+    font-weight: bold;
+    font-size: 25px;
+}
