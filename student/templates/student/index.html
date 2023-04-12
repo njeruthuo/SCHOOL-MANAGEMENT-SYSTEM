@@ -7,29 +7,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}" />
         <link rel="stylesheet" href="{% static 'css/index-body.css' %}" />
         
     </head>
     <body>
-        <div class="nav-container">
-            <div class="logo-name">
-                <img
-                    class="logo-image"
-                    src="{% static 'images/logo.jpeg' %}"
-                    alt=""
-                />
-                <p class="school-name">ST. FRANCIS SECONDARY SCHOOL NYACABA</p>
-            </div>
-
-            <div class="nav-elements">
-                <ul class="li-elements">
-                    <li>Home</li>
-                    <li>Admissions</li>
-                    <li>About Us</li>
-                    <li>Sign Up</li>
-                </ul>
-            </div>
-        </div>
+        {% include "student/navbar.html" %}
 
         <div class="content-body"></div>
 
